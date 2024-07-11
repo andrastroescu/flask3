@@ -140,10 +140,10 @@ def create_connection():
     global connection
     try:
         connection = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='pass123db',
-            database='andradb'
+            host='db-mysql-fra1-32128-do-user-16235664-0.a.db.ondigitalocean.com',
+            user='doadmin',
+            password='AVNS_46iBWiHB5iV9mWFd436',
+            database='defaultdb'
         )
         if connection.is_connected():
             print("Connected to MySQL database")
