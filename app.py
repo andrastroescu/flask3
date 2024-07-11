@@ -97,7 +97,7 @@ def load_and_train_model():
 
     model.summary()
 
-    epochs=30
+    epochs=5
     
     history = model.fit(
       train_ds,
